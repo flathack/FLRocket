@@ -1,6 +1,6 @@
 # FLRocket
 
-FLRocket is a launcher for the German Freelancer Crossfire single-player patch.
+FLRocket is a launcher for the German Crossfire single-player patch.
 
 Important:
 
@@ -11,25 +11,21 @@ Important:
 
 ## What It Does
 
-- Checks the Freelancer installation next to the launcher.
-- Requires `EXE\Freelancer.exe` to exist in the Freelancer root folder.
+- Checks the game installation next to the launcher.
+- Requires the original game executable to exist in the root folder.
 - Downloads the German patch files from the public GitHub repository.
-- Starts the patched game through `EXE2\Freelancer.exe`.
+- Starts the patched game through the patched executable folder.
 - Keeps local files in sync through the manifest in `DE/files.json`.
 
 ## Installation
 
-Download the latest FLRocket release and place the launcher directly into your Freelancer Crossfire folder, for example:
+Download the latest FLRocket release and place the launcher directly into your Crossfire folder, for example:
 
 ```text
-C:\Freelancer Crossfire\FLRocket.exe
+C:\Crossfire\FLRocket.exe
 ```
 
-The launcher must be in the Freelancer root folder. The following file must exist:
-
-```text
-EXE\Freelancer.exe
-```
+The launcher must be in the game root folder and requires the original executable structure to be present.
 
 When started, FLRocket checks the files and downloads the German patch data if needed.
 
