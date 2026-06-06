@@ -1,0 +1,1 @@
+Bitte den FLRocket runterladen und in den C:\Freelancer Crossfire Ordner legen und starten. Der Launcher läd automatisch den DE patch runter und hält ihn auch aktuell.
