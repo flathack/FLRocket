@@ -1,5 +1,7 @@
 # FLRocket
 
+[Deutsche README](README.de.md)
+
 FLRocket is a launcher for the German Crossfire single-player patch.
 
 Important:
