@@ -16,15 +16,17 @@ FLRocket ist ein schlanker Launcher fuer den deutschen Crossfire-Singleplayer-Pa
 - Verwendet einen lokalen Cache, damit bereits geladene Dateien nicht erneut heruntergeladen werden muessen.
 
 ## Installation
+- installiere Crossfire wie es auf der webseite von Crossfire angegeben ist.
+- starte den originalen Crossfire Launcher um das spiel auf die neuste Version zu patchen. starte auch einmal das Spiel mindestens im Multiplayer (bis zum Hauptmenü reicht)
 
-Lade die neueste FLRocket-Version aus den Releases herunter und lege die Datei direkt in deinen Crossfire-Hauptordner, zum Beispiel:
+- Lade die neueste FLRocket-Version aus den Releases herunter und lege die Datei direkt in deinen Crossfire-Hauptordner, zum Beispiel:
 
 ```text
-C:\Crossfire\FLRocket.exe
+C:\Freelancer Crossfire\FLRocket.exe
 ```
 
 Der Launcher muss direkt im Hauptordner liegen. Die originale Spielstruktur muss vorhanden sein, damit FLRocket die Installation erkennen und den Patch korrekt anwenden kann.
-
+Beachte: wenn der originale Crossfire Launcher gedtartet wird, nachdem der Deutsch Patch drin ist, dann sind die Übersetzungen wieder weh. Dann einfach FLRocket nochmal starten um den Deutsch Patch wieder zu installieren.
 Beim Start prueft FLRocket die vorhandenen Dateien, vergleicht sie mit dem GitHub-Manifest und laedt fehlende oder veraenderte Patch-Dateien automatisch nach.
 
 ## Datenquelle
