@@ -20,16 +20,19 @@ Important:
 - Keeps local files in sync through the manifest in `DE/files.json`.
 
 ## Installation
-
-Download the latest FLRocket release and place the launcher directly into your Crossfire folder, for example:
+- install Crossfire as you would normally.
+- launch the original Crossfire Launcher and patch the game to latest version.
+- Download the latest FLRocket release and place the launcher directly into your Freelancer Crossfire folder, for example:
 
 ```text
-C:\Crossfire\FLRocket.exe
+C:\Freelancer Crossfire\FLRocket.exe
 ```
 
 The launcher must be in the game root folder and requires the original executable structure to be present.
 
 When started, FLRocket checks the files and downloads the German patch data if needed.
+
+Note: if you launch the original launcher to update files, the german patch will be wiped. just launch FLRocket again to repatch german language patch
 
 ## Data Source
 
