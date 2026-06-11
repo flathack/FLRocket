@@ -1,5 +1,0 @@
-Cleanup #undef lines:
----------------------
-
-Search: #define (.*?)[ \t]+.*
-Replace: #undef $1

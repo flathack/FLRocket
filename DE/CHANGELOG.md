@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.11 - 2026-06-11
+
+### Geaendert
+
+- EXE2 wird beim Patchen lokal aus dem vorhandenen EXE-Ordner aufgebaut; danach werden nur noch abweichende EXE2-Overlay-Dateien installiert.
+- GameLauncher.exe und .log-Dateien werden weder aus dem Patch installiert noch beim lokalen EXE2-Aufbau uebernommen.
+- Der oeffentliche DE-Patch enthaelt fuer EXE2 nur noch die wirklich abweichenden Overlay-Dateien.
+
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
 ## 0.1.10 - 2026-06-11
