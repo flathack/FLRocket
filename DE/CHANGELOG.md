@@ -2,6 +2,21 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.1.10 - 2026-06-11
+
+### Hinzugefügt
+
+- Die Oberfläche enthält jetzt einen Button zum Starten des Crossfire Launchers mit Warnhinweis, dass der deutsche Patch dabei entfernt oder überschrieben werden kann.
+- Die Launcher-Version wird zentral gepflegt und in der Titelleiste, Sidebar und About-Ansicht angezeigt.
+
+### Behoben
+
+- Spielzeit-Statistiken ignorieren offensichtlich verwaiste Sessions über 12 Stunden und reparieren bereits gespeicherte unrealistische Einträge.
+
+### Geändert
+
+- FLRocket kann ein DE-Patch-ZIP aus einem älteren GitHub Release verwenden, wenn das neueste Launcher-Release selbst kein Patch-ZIP enthält.
+
 ## 0.1.9 - 2026-06-11
 
 ### Hinzugefügt
