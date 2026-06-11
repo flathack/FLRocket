@@ -2,6 +2,96 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.1.9 - 2026-06-11
+
+### Hinzugefügt
+
+- Der Launcher-Selbstupdate-Download zeigt jetzt Fortschritt, geladene Datenmenge, Geschwindigkeit und ETA in der Sidebar an.
+- Der DE-Patch-Archivdownload zeigt jetzt Datenmenge, Downloadgeschwindigkeit und ETA in der Update-Ansicht an.
+
+### Geändert
+
+- Der im Launcher angezeigte Changelog wurde aktualisiert.
+
+## 0.1.8 - 2026-06-11
+
+### Geändert
+
+- Große DE-Patch-Updates werden jetzt bevorzugt aus einem GitHub-Release-ZIP geladen, statt tausende Einzeldateien direkt aus dem Repository anzufordern.
+- Das Release enthält ein versioniertes `FLRocket-DE-Patch-<version>.zip` mit den Daten aus dem öffentlichen `DE`-Ordner.
+- Der Launcher entpackt das Patch-Archiv zuerst in den lokalen Cache und installiert danach weiterhin nur Manifest-geprüfte Dateien in den Spielordner.
+- Falls kein passendes Patch-Archiv im Release vorhanden ist, kann der Launcher weiterhin einzelne fehlende Dateien aus GitHub nachladen.
+
+### Verbessert
+
+- Die Update-Oberfläche zeigt eigene Statusmeldungen für Archiv-Download und Archiv-Entpacken.
+
+## 0.1.7 - 2026-06-06
+
+### Geändert
+
+- README im privaten Projekt und im öffentlichen GitHub-Repository vereinheitlicht.
+- README dokumentiert klar, dass FLRocket kein offizieller Crossfire Launcher ist und nur für den deutschen Singleplayer-Patch gedacht ist.
+- Die Oberfläche zeigt den Hinweis ebenfalls auf der Home-Ansicht und im About-Bereich.
+- Die Update-Anzeige unterscheidet zwischen Download und Kopieren aus dem Cache.
+
+### Behoben
+
+- Beim Kopieren bereits vorhandener Cache-Dateien bleibt die UI nicht mehr bei 0 Dateien stehen.
+
+## 0.1.6 - 2026-06-06
+
+### Geändert
+
+- Crossfire-DE-Dateien werden direkt aus `flathack/FLRocket` auf GitHub geladen.
+- Das Manifest wird von `DE/files.json` gelesen; einzelne Dateien werden aus `DE/<Pfad>` heruntergeladen.
+- Launcher-Selbstupdates werden aus GitHub Releases geladen und nur für höhere Versionen angewendet.
+- Sichtbare Update-Texte verweisen auf GitHub.
+
+### Entfernt
+
+- Provider-spezifische Spieldatei-Downloadlogik und `file_id`-Abhängigkeit im Manifest.
+
+## 0.1.5 - 2026-06-05
+
+### Behoben
+
+- Der Start-/Update-Button bleibt im festen 960x600-Launcherfenster sichtbar.
+- Die Home-Übersicht nutzt kompaktere Dashboard-Spalten.
+- Lange Launcher-Pfade und Statistikwerte werden kompakter dargestellt.
+
+## 0.1.4 - 2026-06-05
+
+### Hinzugefügt
+
+- Spielzeit-Statistiken zeichnen Gesamtspielzeit, Anzahl der Sessions und längste Session auf.
+- Die Übersicht zeigt die aktuellen Spielzeit-Statistiken direkt im Launcher.
+- Der Launcher sucht eigene Updates in versionierten Remote-Release-Daten.
+
+### Geändert
+
+- Launcher-Self-Updates werden still im Hintergrund heruntergeladen und beim Beenden über einen versteckten Helper angewendet.
+- Die Self-Updater-Version wird aus der Cargo-Paketversion gelesen.
+- Offene Spielsessions werden beim nächsten Prozesscheck sauber abgeschlossen.
+
+## 0.1.3 - 2026-06-05
+
+### Geändert
+
+- Der Launcher kann das Spiel auch starten, wenn Updates ausstehen.
+- Bei ausstehenden Updates gibt es getrennte Aktionen für Update und Start ohne Update.
+- Downloads werden zuerst unter `%LOCALAPPDATA%\RocketLauncher\cache` zwischengespeichert und danach aus dem Cache in den Spielordner kopiert.
+- Bereits gültige Cache-Dateien werden wiederverwendet.
+- `.log`-Dateien werden beim Manifest-Abgleich ignoriert.
+- Die Oberfläche hat einen animierten Sternenhintergrund und Reduced-Motion-Unterstützung erhalten.
+
+## 0.1.2 - 2026-06-02
+
+### Geändert
+
+- Der Launcher prüft weiterhin `EXE\Freelancer.exe`.
+- Der Spielstart verwendet `EXE2\Freelancer.exe`.
+
 ## 0.1.1 - 2026-06-02
 
 ### Geändert
@@ -10,18 +100,9 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 - Freelancer wird nur noch über `EXE\Freelancer.exe` im Launcher-Ordner gesucht.
 - Die manuelle Ordnerwahl wurde aus den Einstellungen entfernt.
 - Die alte Hero-Kennzeichnung wurde entfernt.
-- Die App zeigt jetzt "Launcher by FlatHack" an.
-- Die Einstellungen enthalten jetzt 10 auswählbare Themes.
+- Die App zeigt "Launcher by FlatHack" an.
+- Die Einstellungen enthalten 10 auswählbare Themes.
 - Provider-Bezeichnungen wurden aus der sichtbaren Programmoberfläche entfernt.
-
-### Hinzugefügt
-
-- Regressionstests für die neue Pflichtstruktur `EXE\Freelancer.exe`.
-- Persistente Theme-Konfiguration.
-
-### Fehlerbehandlung
-
-- Wenn der Launcher nicht direkt im Freelancer-Hauptordner liegt oder `EXE\Freelancer.exe` fehlt, wird eine klare Fehlermeldung ausgegeben.
 
 ## 0.1.0 - 2026-06-02
 
