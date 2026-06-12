@@ -1,0 +1,11 @@
+{
+  "languages": [
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "version": "0.1.11",
+      "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.1.11/FLRocket-DE-Patch-v0.1.11.zip",
+      "sha256": "2f561814a06027a42e065631cca02546512fcd1552cfd5681ff68fb3edf212e7"
+    }
+  ]
+}
