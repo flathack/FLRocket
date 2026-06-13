@@ -1,0 +1,69 @@
+{
+    "catalogVersion":  1,
+    "mods":  [
+                 {
+                     "id":  "crossfire",
+                     "name":  "Freelancer Crossfire",
+                     "description":  "Crossfire translation packages for FLRocket.",
+                     "detection":  {
+                                       "requiredFiles":  [
+                                                             "EXE/Freelancer.exe",
+                                                             "EXE/GameLauncher.exe"
+                                                         ],
+                                       "anyFiles":  [
+
+                                                    ]
+                                   },
+                     "launch":  {
+                                    "defaultMode":  "flrocket-exe2",
+                                    "officialLauncherPath":  "EXE/GameLauncher.exe"
+                                },
+                     "languages":  [
+                                       {
+                                           "code":  "de",
+                                           "name":  "Deutsch",
+                                           "version":  "0.1.14",
+                                           "components":  {
+                                                              "filePatch":  {
+                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.1.14/FLRocket-crossfire-de-files-v0.1.14.zip",
+                                                                                "sha256":  "0c7012cf635ee1e2fdbd1285d268d0ad4b33f7b65a03b74c30dec0dbe86d7fbe",
+                                                                                "installMode":  "flrocket-exe2"
+                                                                            }
+                                                          },
+                                           "changelogUrl":  "https://raw.githubusercontent.com/flathack/FLRocket/main/DE/CHANGELOG.md"
+                                       }
+                                   ]
+                 },
+                 {
+                     "id":  "reforged",
+                     "name":  "Freelancer Reforged",
+                     "description":  "Reforged translation packages for FLRocket.",
+                     "detection":  {
+                                       "requiredFiles":  [
+                                                             "EXE/Freelancer.exe"
+                                                         ],
+                                       "anyFiles":  [
+                                                        "EXE/InfoCards.dll",
+                                                        "EXE/equipresources.dll"
+                                                    ]
+                                   },
+                     "launch":  {
+                                    "defaultMode":  "standard-exe"
+                                },
+                     "languages":  [
+                                       {
+                                           "code":  "de",
+                                           "name":  "Deutsch",
+                                           "version":  "0.1.14",
+                                           "components":  {
+                                                              "hookOverlay":  {
+                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.1.14/FLRocket-reforged-de-hook-v0.1.14.zip",
+                                                                                  "sha256":  "6f509a43c3bd208cfbba78353a2aa84a1a833ec6cbb2356f2e0e517d598843a9",
+                                                                                  "entryPath":  "overlay.json"
+                                                                              }
+                                                          }
+                                       }
+                                   ]
+                 }
+             ]
+}
