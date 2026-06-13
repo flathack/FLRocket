@@ -26,7 +26,7 @@
                                            "components":  {
                                                               "hookOverlay":  {
                                                                                   "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.1.14/FLRocket-crossfire-de-hook-v0.1.14.zip",
-                                                                                  "sha256":  "850e701ebab669e241fc08edb45d72de25a465af67acb36dc197e6c9434f4c34",
+                                                                                  "sha256":  "6163787427a05b8c334bd2404d238d422eaa2ab9a6438fdb795a75524d7b0113",
                                                                                   "entryPath":  "overlay.json"
                                                                               },
                                                               "filePatch":  {
@@ -63,7 +63,7 @@
                                            "components":  {
                                                               "hookOverlay":  {
                                                                                   "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.1.14/FLRocket-reforged-de-hook-v0.1.14.zip",
-                                                                                  "sha256":  "6f509a43c3bd208cfbba78353a2aa84a1a833ec6cbb2356f2e0e517d598843a9",
+                                                                                  "sha256":  "64a7142c3b448f82e9cbf486f40572ea23753e8e38ffd9141b213f7cf0a3f95f",
                                                                                   "entryPath":  "overlay.json"
                                                                               }
                                                           }
