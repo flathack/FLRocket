@@ -16,6 +16,10 @@ FLRocket helps you play Freelancer mods with available translations. You do not 
 
 The correct game folder is the folder that contains the `EXE` folder.
 
+## Important for Crossfire
+
+Crossfire must be fully installed and started at least once with the original Crossfire launcher. This makes sure Crossfire is fully patched and up to date. After that, you can use FLRocket for the translation.
+
 ## Currently Available Translations
 
 | Mod | Language |
