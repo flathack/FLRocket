@@ -1,43 +1,49 @@
 # FLRocket
 
-FLRocket ist ein schlanker Launcher fuer den deutschen Crossfire-Singleplayer-Patch.
+FLRocket ist ein schlanker Freelancer Launcher und universeller Übersetzungshelfer. Er bleibt mit dem deutschen Crossfire-Singleplayer-Patch kompatibel und kann weitere Mod-Übersetzungen über einen öffentlichen Katalog erkennen.
 
 > **Wichtiger Hinweis**
 >
-> FLRocket ist **nicht** der offizielle Crossfire Launcher und steht in keiner offiziellen Verbindung zum Crossfire-Team oder Crossfire-Projekt. Der Launcher ist ausschliesslich fuer den deutschen Singleplayer-Patch gedacht und ersetzt nicht den offiziellen Multiplayer-Launcher.
+> FLRocket ist **nicht** der offizielle Crossfire Launcher und steht in keiner offiziellen Verbindung zum Crossfire-Team oder Crossfire-Projekt. Er ersetzt nicht den offiziellen Multiplayer-Launcher.
 
 ## Was FLRocket macht
 
-- Prueft die Spielinstallation im selben Ordner wie der Launcher.
+- Prüft die Spielinstallation im selben Ordner wie der Launcher.
 - Erwartet die originale Spielstruktur im Hauptordner.
-- Laedt die deutschen Patch-Dateien direkt aus dem oeffentlichen GitHub-Repository.
+- Lädt Crossfire-Deutschdaten über öffentliche GitHub-Release-ZIPs und öffentliche Patch-Metadaten.
 - Startet die gepatchte Spielversion aus dem Patch-Ordner.
-- Haelt lokale Dateien ueber das Manifest `DE/files.json` aktuell.
-- Verwendet einen lokalen Cache, damit bereits geladene Dateien nicht erneut heruntergeladen werden muessen.
+- Hält lokale Dateien über das Manifest `DE/files.json` aktuell.
+- Verwendet einen lokalen Cache, damit bereits geladene Dateien nicht erneut heruntergeladen werden müssen.
+- Erkennt verfügbare Freelancer-Mod-Übersetzungen über `translator-catalog.json`.
+- Bereitet Text-/Infocard-Hook-Overlays und optionale Datei-/Audio-Patches vor, wenn ein Übersetzungspaket diese Komponenten bereitstellt.
+- Nutzt bei Crossfire im universellen Translator Text/Infocards über den Client Hook; das Crossfire-Dateipaket enthält dort nur Audio-Daten und FLRocket-spezifische EXE2-Dateien.
+- Startet Hook-Overlays aus dem FLRocket-Cache und installiert den kleinen Hook-Loader im gewählten Spielordner, solange eine Hook-Übersetzung aktiv ist. Mit `Original` entfernt FLRocket den Hook-Loader wieder.
 
 ## Installation
-- installiere Crossfire wie es auf der webseite von Crossfire angegeben ist.
-- starte den originalen Crossfire Launcher um das spiel auf die neuste Version zu patchen. starte auch einmal das Spiel mindestens im Multiplayer (bis zum Hauptmenü reicht)
 
-- Lade die neueste FLRocket-Version aus den Releases herunter und lege die Datei direkt in deinen Crossfire-Hauptordner, zum Beispiel:
+Lade die neueste FLRocket-Version aus den Releases herunter und lege die Datei direkt in deinen Crossfire-Hauptordner, zum Beispiel:
 
 ```text
-C:\Freelancer Crossfire\FLRocket.exe
+Crossfire\FLRocket.exe
 ```
 
-- Der Launcher muss direkt im Hauptordner liegen. Die originale Spielstruktur muss vorhanden sein, damit FLRocket die Installation erkennen und den Patch korrekt anwenden kann.
-- Beachte: wenn der originale Crossfire Launcher gestartet wird, nachdem der Deutsch Patch drin ist, sind die Übersetzungen wieder weg. Dann einfach FLRocket nochmal starten um den Deutsch Patch wieder zu installieren.
-- Beim Start prueft FLRocket die vorhandenen Dateien, vergleicht sie mit dem GitHub-Manifest und laedt fehlende oder veraenderte Patch-Dateien automatisch nach.
+Der Launcher muss direkt im Hauptordner liegen. Die originale Spielstruktur muss vorhanden sein, damit FLRocket die Installation erkennen und den Patch korrekt anwenden kann.
+
+Beim Start prüft FLRocket die vorhandenen Dateien, vergleicht sie mit dem GitHub-Manifest und lädt fehlende oder veränderte Patch-Dateien automatisch nach.
+
+Bei katalogbasierten Übersetzungen wie Reforged lädt FLRocket das ausgewählte Hook-Paket, prüft es, bereitet es im lokalen FLRocket-Cache vor, trägt den Hook-Loader in `EXE\dacom.ini` ein und startet Freelancer mit dem vorbereiteten Overlay-Pfad. Bei Crossfire wird derselbe Hook-Weg für Texte verwendet; zusätzlich kann FLRocket die deutschen Audio-Dateien und die EXE2-Startumgebung vorbereiten.
 
 ## Datenquelle
 
-Die Patch-Dateien liegen im oeffentlichen Repository unter:
+Die Patch-Metadaten liegen im öffentlichen Repository. Die eigentlichen Sprachdateien werden als Release-ZIP veröffentlicht:
 
 ```text
-https://github.com/flathack/FLRocket/tree/main/DE
+https://raw.githubusercontent.com/flathack/FLRocket/main/DE/files.json
+https://raw.githubusercontent.com/flathack/FLRocket/main/language-patches.json
+https://raw.githubusercontent.com/flathack/FLRocket/main/translator-catalog.json
 ```
 
-Launcher-Releases werden hier veroeffentlicht:
+Launcher-Releases werden hier veröffentlicht:
 
 ```text
 https://github.com/flathack/FLRocket/releases

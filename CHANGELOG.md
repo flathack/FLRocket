@@ -1,37 +1,45 @@
 # Changelog
 
-## Unreleased
+Alle relevanten Projektänderungen werden hier dokumentiert.
 
-### Hinzugefuegt
+## 0.2.0 - 2026-06-13
 
-- Universeller Translator-Modus fuer Freelancer-Mods.
-- Client-Hook-Uebersetzungen koennen pro erkanntem Mod und Sprache vorbereitet werden.
-- Sprachauswahl enthaelt jetzt `Original`, um ohne Hook und ohne Uebersetzung in der Mod-Originalsprache zu starten.
-- App-Oberflaeche kann auf Deutsch, Englisch und Russisch umgestellt werden.
+### Hinzugefügt
+
+- Universeller Translator-Modus für Freelancer-Mods.
+- Client-Hook-Übersetzungen können pro erkanntem Mod und Sprache vorbereitet werden.
+- Sprachauswahl enthält jetzt `Original`, um ohne Hook und ohne Übersetzung in der Mod-Originalsprache zu starten.
+- App-Oberfläche kann auf Deutsch, Englisch und Russisch umgestellt werden.
 - Portable Build-Skript erzeugt `release/FLRocket.exe` ohne Installer.
+- Öffentlicher Root-Changelog wird aus GitHub geladen.
 
-### Geaendert
+### Geändert
 
-- Changelog wird zentral aus der Root-`CHANGELOG.md` des oeffentlichen GitHub-Repositories geladen.
+- Changelog wird zentral aus der Root-`CHANGELOG.md` des öffentlichen GitHub-Repositories geladen.
 - Startseite wurde vereinfacht und zeigt nur noch die wichtigsten Aktionen.
-- `Ueber` wurde aus der Sidebar in die Titelleiste verschoben.
+- `Über` wurde aus der Sidebar in die Titelleiste verschoben.
+- App-Updater bevorzugt portable ZIP-Assets, damit `WebView2Loader.dll` zusammen mit `FLRocket.exe` aktualisiert wird.
+- Crossfire nutzt im universellen Translator-Modus Hook-Textübersetzungen; das Dateipaket enthält nur noch Audio und FLRocket-spezifische EXE2-Dateien.
 
 ### Behoben
 
-- Weisser Fensterrand und ueberlaufender Startbutton im rahmenlosen Launcher-Fenster.
-- Crossfire startet mit Hook-Unterstuetzung fuer dynamische Textuebersetzungen.
+- Weißer Fensterrand und überlaufender Startbutton im rahmenlosen Launcher-Fenster.
+- Über-Ansicht bleibt bei kleineren Fensterhöhen scrollbar und schneidet den Text nicht mehr ab.
+- Crossfire startet mit Hook-Unterstützung für dynamische Textübersetzungen.
+- Fortschritt wird auch beim Kopieren und Vorbereiten von Übersetzungspaketen aktualisiert.
+- Deutsche UI- und Backend-Meldungen verwenden echte Umlaute statt `ae`, `oe` oder `ue`.
 
 ## 0.1.14 - 2026-06-12
 
-### Hinzugefuegt
+### Hinzugefügt
 
-- Neuer Repair-Button zum Loeschen von EXE2 und erneuten Anwenden des DE-Patches.
+- Neuer Repair-Button zum Löschen von EXE2 und erneuten Anwenden des DE-Patches.
 
 ## 0.1.13 - 2026-06-11
 
 ### Behoben
 
-- Beim Neuaufbau von EXE2 werden lokale DirectX-Wrapper-Dateien aus EXE ausgelassen, die in der originalen EXE2-Struktur nicht vorhanden waren und Startfehler mit d3d10.dll ausloesen koennen.
+- Beim Neuaufbau von EXE2 werden lokale DirectX-Wrapper-Dateien aus EXE ausgelassen, die in der originalen EXE2-Struktur nicht vorhanden waren und Startfehler mit d3d10.dll auslösen können.
 
 ## 0.1.12 - 2026-06-11
 
@@ -41,13 +49,11 @@
 
 ## 0.1.11 - 2026-06-11
 
-### Geaendert
+### Geändert
 
 - EXE2 wird beim Patchen lokal aus dem vorhandenen EXE-Ordner aufgebaut; danach werden nur noch abweichende EXE2-Overlay-Dateien installiert.
-- GameLauncher.exe und .log-Dateien werden weder aus dem Patch installiert noch beim lokalen EXE2-Aufbau uebernommen.
-- Der oeffentliche DE-Patch enthaelt fuer EXE2 nur noch die wirklich abweichenden Overlay-Dateien.
-
-Alle relevanten Projektänderungen werden hier dokumentiert.
+- GameLauncher.exe und .log-Dateien werden weder aus dem Patch installiert noch beim lokalen EXE2-Aufbau übernommen.
+- Der öffentliche DE-Patch enthält für EXE2 nur noch die wirklich abweichenden Overlay-Dateien.
 
 ## 0.1.10 - 2026-06-11
 
