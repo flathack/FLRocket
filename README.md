@@ -1,5 +1,7 @@
 # FLRocket
 
+[English README](README.en.md)
+
 FLRocket hilft dir, Freelancer-Mods mit verfügbaren Übersetzungen zu spielen. Du musst keine Dateien von Hand patchen: herunterladen, entpacken, Sprache auswählen, Spiel starten.
 
 ## Schnellstart
