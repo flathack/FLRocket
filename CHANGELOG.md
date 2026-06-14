@@ -13,6 +13,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 
 - Direkte Translator-Dateipatches sichern vorhandene Originaldateien und stellen sie beim Wechsel auf `Original` oder eine andere Sprache wieder her.
 - Crossfire-DE-Hook-Übersetzung mit den neuesten manuell korrigierten Textressourcen aktualisiert.
+- Crossfire-DE-Übersetzung temporär aus dem öffentlichen FLRocket-Katalog und den GitHub-Assets entfernt; lokale Archivkopie bleibt für spätere Wiederverwendung erhalten.
 
 ## 0.2.0 - 2026-06-13
 
