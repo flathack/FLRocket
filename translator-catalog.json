@@ -35,6 +35,18 @@
                                                                                 "installMode":  "direct-root"
                                                                             }
                                                           }
+                                       },
+                                       {
+                                           "code":  "fr",
+                                           "name":  "Français",
+                                           "version":  "0.2.1",
+                                           "components":  {
+                                                              "hookOverlay":  {
+                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-fr-hook-v0.2.1.zip",
+                                                                                  "sha256":  "eeeb911ff104677f70261be6714a772df07df5d34f785d72f4cd69e3039c1274",
+                                                                                  "entryPath":  "overlay.json"
+                                                                              }
+                                                          }
                                        }
                                    ]
                  },
