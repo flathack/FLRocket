@@ -16,15 +16,10 @@ FLRocket hilft dir, Freelancer-Mods mit verfügbaren Übersetzungen zu spielen. 
 
 Der richtige Spielordner ist der Ordner, in dem auch der Ordner `EXE` liegt.
 
-## Wichtig für Crossfire
-
-Crossfire muss vollständig installiert und mindestens einmal mit dem originalen Crossfire Launcher gestartet worden sein. Dadurch wird Crossfire komplett auf den neuesten Stand gepatcht. Erst danach solltest du FLRocket für die Übersetzung verwenden.
-
 ## Aktuell verfügbare Übersetzungen
 
 | Mod | Sprache |
 | --- | --- |
-| Freelancer Crossfire | Deutsch |
 | Freelancer Reforged | Deutsch, Russisch |
 | Erkannte Mods | Original |
 
@@ -34,8 +29,7 @@ Wenn eine Sprache im Launcher nicht angezeigt wird, gibt es dafür aktuell noch 
 
 ## Hinweise
 
-- FLRocket ist ein Community-Launcher und kein offizieller Crossfire Launcher.
-- Für Crossfire-Updates und Multiplayer bleibt der offizielle Crossfire Launcher zuständig.
+- FLRocket ist ein Community-Launcher und nicht offiziell mit den jeweiligen Mod-Teams verbunden.
 - FLRocket ist vor allem dafür gedacht, Übersetzungen komfortabel vorzubereiten und das Spiel direkt zu starten.
 - Bei Problemen kannst du jederzeit wieder `Original` auswählen.
 
