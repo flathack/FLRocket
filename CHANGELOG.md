@@ -2,6 +2,13 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.2.3 - 2026-06-14
+
+### Geändert
+
+- Crossfire wird jetzt über die Root-Dateien `CFWidescreenfix.exe`, `CFUIChanger.exe` und `CFNoHud.exe` erkannt.
+- Die Startseite zeigt bei Crossfire den Hinweis, im offiziellen Launcher nur `SINGLE PLAYER` zu wählen und kein Update durchzuführen, damit die Übersetzung nicht überschrieben wird.
+
 ## 0.2.2 - 2026-06-14
 
 ### Geändert
