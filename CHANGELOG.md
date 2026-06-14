@@ -12,6 +12,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 ### Geändert
 
 - Direkte Translator-Dateipatches sichern vorhandene Originaldateien und stellen sie beim Wechsel auf `Original` oder eine andere Sprache wieder her.
+- Crossfire-DE-Hook-Übersetzung mit den neuesten manuell korrigierten Textressourcen aktualisiert.
 
 ## 0.2.0 - 2026-06-13
 
