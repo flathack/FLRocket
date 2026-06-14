@@ -2,6 +2,12 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## Unreleased
+
+### Hinzugefügt
+
+- Russische Textübersetzung für Freelancer Reforged als Hook-Paket ergänzt.
+
 ## 0.2.0 - 2026-06-13
 
 ### Hinzugefügt

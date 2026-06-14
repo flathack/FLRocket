@@ -25,7 +25,7 @@ Crossfire must be fully installed and started at least once with the original Cr
 | Mod | Language |
 | --- | --- |
 | Freelancer Crossfire | German |
-| Freelancer Reforged | German |
+| Freelancer Reforged | German, Russian |
 | Detected mods | Original |
 
 `Original` means: do not use a translation and start the game in its normal language.

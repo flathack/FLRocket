@@ -25,7 +25,7 @@ Crossfire muss vollständig installiert und mindestens einmal mit dem originalen
 | Mod | Sprache |
 | --- | --- |
 | Freelancer Crossfire | Deutsch |
-| Freelancer Reforged | Deutsch |
+| Freelancer Reforged | Deutsch, Russisch |
 | Erkannte Mods | Original |
 
 `Original` bedeutet: keine Übersetzung verwenden und das Spiel in seiner normalen Sprache starten.
