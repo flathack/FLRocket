@@ -1,11 +1,3 @@
 {
-    "languages":  [
-                      {
-                          "code":  "de",
-                          "name":  "Deutsch",
-                          "version":  "0.1.11",
-                          "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.1.11/FLRocket-DE-Assembly-Patch-v0.1.11.zip",
-                          "sha256":  "df90c1aa13d16ca5743f844e59dbfafbe14be2ecccf3bc375d6e204dc23ce812"
-                      }
-                  ]
+  "languages": []
 }
