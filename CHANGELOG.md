@@ -15,6 +15,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 - Crossfire-DE-Hook-Übersetzung mit den neuesten manuell korrigierten Textressourcen aktualisiert.
 - Crossfire-DE-Übersetzung temporär aus dem öffentlichen FLRocket-Katalog und den GitHub-Assets entfernt; lokale Archivkopie bleibt für spätere Wiederverwendung erhalten.
 - Crossfire-DE-Übersetzung wieder als aktuelles Hook- und Audio-Paket veröffentlicht; das Dateipaket enthält keine `EXE2`-Dateien mehr und nutzt Original-Audio-Backup/Restore.
+- Französische Crossfire-Textübersetzung als Hook-Paket ergänzt.
 
 ## 0.2.0 - 2026-06-13
 
