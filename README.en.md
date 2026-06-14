@@ -20,7 +20,7 @@ The correct game folder is the folder that contains the `EXE` folder.
 
 | Mod | Language |
 | --- | --- |
-| Freelancer Crossfire | German |
+| Freelancer Crossfire | German, French |
 | Freelancer Reforged | German, Russian |
 | Detected mods | Original |
 
