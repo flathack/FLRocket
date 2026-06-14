@@ -2,11 +2,16 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
-## Unreleased
+## 0.2.1 - 2026-06-14
 
 ### Hinzugefügt
 
 - Russische Textübersetzung für Freelancer Reforged als Hook-Paket ergänzt.
+- Russische Freelancer-Reforged-Font-Konfiguration ergänzt, damit HUD/UI kyrillische Zeichen anzeigen kann.
+
+### Geändert
+
+- Direkte Translator-Dateipatches sichern vorhandene Originaldateien und stellen sie beim Wechsel auf `Original` oder eine andere Sprache wieder her.
 
 ## 0.2.0 - 2026-06-13
 
