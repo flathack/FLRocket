@@ -2,6 +2,17 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.2.2 - 2026-06-14
+
+### Geändert
+
+- Crossfire startet im Universal-Translator-Modus jetzt über den offiziellen `EXE/GameLauncher.exe`.
+- Crossfire wird auch erkannt, wenn der Beta-Launcher noch nicht im `EXE`-Ordner liegt.
+
+### Hinzugefügt
+
+- Wenn `EXE/GameLauncher.exe` fehlt, zeigt FLRocket eine einfache Download-Hilfe mit Bild, Link und Kopierziel an.
+
 ## 0.2.1 - 2026-06-14
 
 ### Hinzugefügt
