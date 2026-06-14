@@ -7,10 +7,13 @@
                      "description":  "Crossfire translation packages for FLRocket.",
                      "detection":  {
                                        "requiredFiles":  [
-                                                             "EXE/Freelancer.exe"
+                                                             "EXE/Freelancer.exe",
+                                                             "CFWidescreenfix.exe",
+                                                             "CFUIChanger.exe",
+                                                             "CFNoHud.exe"
                                                          ],
                                        "anyFiles":  [
-                                                        "CFLauncher"
+
                                                     ]
                                    },
                      "launch":  {
