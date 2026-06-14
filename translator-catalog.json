@@ -22,15 +22,15 @@
                                        {
                                            "code":  "de",
                                            "name":  "Deutsch",
-                                           "version":  "0.2.0",
+                                           "version":  "0.2.1",
                                            "components":  {
                                                               "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.0/FLRocket-crossfire-de-hook-v0.2.0.zip",
-                                                                                  "sha256":  "525abd33446f6a93637cf4f3636c49b52e3a9d6442f12c6dfaf97d1f1fa14983",
+                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-hook-v0.2.1.zip",
+                                                                                  "sha256":  "c0ecb893aaddb16f2f8f88e769ae3582ad76ef4f50e70e4afe62b2e229104c3b",
                                                                                   "entryPath":  "overlay.json"
                                                                               },
                                                               "filePatch":  {
-                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.0/FLRocket-crossfire-de-files-v0.2.0.zip",
+                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-files-v0.2.1.zip",
                                                                                 "sha256":  "a5aaaccc7f2ed47715a915eb65cbb72b3410ae1369b8b56bf510b100e5bbe3b0",
                                                                                 "installMode":  "flrocket-exe2"
                                                                             }
@@ -70,7 +70,7 @@
                                        },
                                        {
                                            "code":  "ru",
-                                           "name":  "Русский",
+                                           "name":  "Ð ÑƒÑÑÐºÐ¸Ð¹",
                                            "version":  "0.2.1",
                                            "components":  {
                                                               "hookOverlay":  {
