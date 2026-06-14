@@ -20,6 +20,7 @@ Der richtige Spielordner ist der Ordner, in dem auch der Ordner `EXE` liegt.
 
 | Mod | Sprache |
 | --- | --- |
+| Freelancer Crossfire | Deutsch |
 | Freelancer Reforged | Deutsch, Russisch |
 | Erkannte Mods | Original |
 
@@ -30,6 +31,7 @@ Wenn eine Sprache im Launcher nicht angezeigt wird, gibt es dafür aktuell noch 
 ## Hinweise
 
 - FLRocket ist ein Community-Launcher und nicht offiziell mit den jeweiligen Mod-Teams verbunden.
+- Für Crossfire werden Texte per Client-Hook geladen; Audiodateien werden beim Aktivieren gesichert und bei `Original` wiederhergestellt.
 - FLRocket ist vor allem dafür gedacht, Übersetzungen komfortabel vorzubereiten und das Spiel direkt zu starten.
 - Bei Problemen kannst du jederzeit wieder `Original` auswählen.
 
