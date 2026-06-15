@@ -10,6 +10,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 - Tschechische Freelancer-Reforged-Font-Konfiguration ergänzt, damit HUD/UI tschechische Sonderzeichen anzeigen kann.
 - Tschechische Freelancer-Reforged-Font-Konfiguration auf `Arial Unicode MS` für alle UI- und Rich-Text-Fonts gehärtet.
 - Tschechische Freelancer-Reforged-Fontgrößen um ca. 10 Prozent reduziert, damit `Arial Unicode MS` besser in HUD/UI-Elemente passt.
+- Tschechische Freelancer-Reforged-Fontgrößen nochmals um 20 Prozent reduziert, damit die Schrift im HUD/UI kleiner angezeigt wird.
 
 ### Geändert
 
