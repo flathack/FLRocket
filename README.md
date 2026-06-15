@@ -21,7 +21,7 @@ Der richtige Spielordner ist der Ordner, in dem auch der Ordner `EXE` liegt.
 | Mod | Sprache |
 | --- | --- |
 | Freelancer Crossfire | Deutsch, Französisch |
-| Freelancer Reforged | Deutsch, Russisch |
+| Freelancer Reforged | Deutsch, Russisch, Tschechisch |
 | Erkannte Mods | Original |
 
 `Original` bedeutet: keine Übersetzung verwenden und das Spiel in seiner normalen Sprache starten.
