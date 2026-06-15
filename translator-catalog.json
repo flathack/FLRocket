@@ -97,6 +97,18 @@
                                                                                 "installMode":  "direct-root"
                                                                             }
                                                           }
+                                       },
+                                       {
+                                           "code":  "cs",
+                                           "name":  "Čeština",
+                                           "version":  "0.2.3",
+                                           "components":  {
+                                                              "hookOverlay":  {
+                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-hook-v0.2.3.zip",
+                                                                                  "sha256":  "1a9c0b8cd0d806573896a4af8dd9860202d68a9471f6a7f1da5b508e76bfe277",
+                                                                                  "entryPath":  "overlay.json"
+                                                                              }
+                                                          }
                                        }
                                    ]
                  }
