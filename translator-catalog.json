@@ -110,7 +110,7 @@
                                                                               },
                                                               "filePatch":  {
                                                                                 "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-files-v0.2.3.zip",
-                                                                                "sha256":  "d7ada79f9152cdcfdfcfa6e313a5cde9d7ff1b7faa06e88209141960662e484d",
+                                                                                "sha256":  "5216521bc334cf3caeb93d5afb31e5ba1b9f2a7363308e16735351d7819e0b60",
                                                                                 "installMode":  "direct-root"
                                                                             }
                                                           }
