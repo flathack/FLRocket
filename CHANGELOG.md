@@ -7,6 +7,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 ### Hinzugefügt
 
 - Tschechische Textübersetzung für Freelancer Reforged als Hook-Paket ergänzt.
+- Tschechische Freelancer-Reforged-Font-Konfiguration ergänzt, damit HUD/UI tschechische Sonderzeichen anzeigen kann.
 
 ### Geändert
 
