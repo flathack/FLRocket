@@ -1,121 +1,119 @@
 {
-    "catalogVersion":  1,
-    "mods":  [
-                 {
-                     "id":  "crossfire",
-                     "name":  "Freelancer Crossfire",
-                     "description":  "Crossfire translation packages for FLRocket.",
-                     "detection":  {
-                                       "requiredFiles":  [
-                                                             "EXE/Freelancer.exe",
-                                                             "CFWidescreenfix.exe",
-                                                             "CFUIChanger.exe",
-                                                             "CFNoHud.exe"
-                                                         ],
-                                       "anyFiles":  [
-
-                                                    ]
-                                   },
-                     "launch":  {
-                                    "defaultMode":  "standard-exe",
-                                    "officialLauncherPath":  "EXE/GameLauncher.exe"
-                                },
-                     "languages":  [
-                                       {
-                                           "code":  "de",
-                                           "name":  "Deutsch",
-                                           "version":  "0.2.1",
-                                           "components":  {
-                                                              "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-hook-v0.2.1.zip",
-                                                                                  "sha256":  "dd08eb6bc88fc71426babb2bc7aca6a44ae29e596a481d468e0d246ff9461e68",
-                                                                                  "entryPath":  "overlay.json"
-                                                                              },
-                                                              "filePatch":  {
-                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-files-v0.2.1.zip",
-                                                                                "sha256":  "48bf7e6516ecae4e62755981e8a340c9d5b3963d40e60d5bb230229494ada555",
-                                                                                "installMode":  "direct-root"
-                                                                            }
-                                                          }
-                                       },
-                                       {
-                                           "code":  "fr",
-                                           "name":  "Français",
-                                           "version":  "0.2.1",
-                                           "components":  {
-                                                              "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-fr-hook-v0.2.1.zip",
-                                                                                  "sha256":  "eeeb911ff104677f70261be6714a772df07df5d34f785d72f4cd69e3039c1274",
-                                                                                  "entryPath":  "overlay.json"
-                                                                              }
-                                                          }
-                                       }
-                                   ]
-                 },
-                 {
-                     "id":  "reforged",
-                     "name":  "Freelancer Reforged",
-                     "description":  "Reforged translation packages for FLRocket.",
-                     "detection":  {
-                                       "requiredFiles":  [
-                                                             "EXE/Freelancer.exe"
-                                                         ],
-                                       "anyFiles":  [
-                                                        "EXE/InfoCards.dll",
-                                                        "EXE/equipresources.dll"
-                                                    ]
-                                   },
-                     "launch":  {
-                                    "defaultMode":  "standard-exe"
-                                },
-                     "languages":  [
-                                       {
-                                           "code":  "de",
-                                           "name":  "Deutsch",
-                                           "version":  "0.2.0",
-                                           "components":  {
-                                                              "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.0/FLRocket-reforged-de-hook-v0.2.0.zip",
-                                                                                  "sha256":  "4b035ccad5ad7236a7de530e15e272ab4cf75b94e563446c80bd1ca4292f8bbb",
-                                                                                  "entryPath":  "overlay.json"
-                                                                              }
-                                                          }
-                                       },
-                                       {
-                                           "code":  "ru",
-                                           "name":  "Русский",
-                                           "version":  "0.2.1",
-                                           "components":  {
-                                                              "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-reforged-ru-hook-v0.2.1.zip",
-                                                                                  "sha256":  "6d777c07a8200f1261a485f5482e19dd8e44959d4b871a40008a97c96b80dcc6",
-                                                                                  "entryPath":  "overlay.json"
-                                                                              },
-                                                              "filePatch":  {
-                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-reforged-ru-files-v0.2.1.zip",
-                                                                                "sha256":  "d7ada79f9152cdcfdfcfa6e313a5cde9d7ff1b7faa06e88209141960662e484d",
-                                                                                "installMode":  "direct-root"
-                                                                            }
-                                                          }
-                                       },
-                                       {
-                                           "code":  "cs",
-                                           "name":  "Čeština",
-                                           "version":  "0.2.3",
-                                           "components":  {
-                                                              "hookOverlay":  {
-                                                                                  "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-hook-v0.2.3.zip",
-                                                                                  "sha256":  "1a9c0b8cd0d806573896a4af8dd9860202d68a9471f6a7f1da5b508e76bfe277",
-                                                                                  "entryPath":  "overlay.json"
-                                                                              },
-                                                              "filePatch":  {
-                                                                                "archiveUrl":  "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-files-v0.2.3-font90.zip",
-                                                                                "sha256":  "20b37c2731c0c023056cf47ea735aa12fe1a5d0e5d92c9ee71e8d2f254e2e667",
-                                                                                "installMode":  "direct-root"
-                                                                            }
-                                                          }
-                                       }
-                                   ]
-                 }
-             ]
+  "catalogVersion": 1,
+  "mods": [
+    {
+      "id": "crossfire",
+      "name": "Freelancer Crossfire",
+      "description": "Crossfire translation packages for FLRocket.",
+      "detection": {
+        "requiredFiles": [
+          "EXE/Freelancer.exe",
+          "CFWidescreenfix.exe",
+          "CFUIChanger.exe",
+          "CFNoHud.exe"
+        ],
+        "anyFiles": []
+      },
+      "launch": {
+        "defaultMode": "standard-exe",
+        "officialLauncherPath": "EXE/GameLauncher.exe"
+      },
+      "languages": [
+        {
+          "code": "de",
+          "name": "Deutsch",
+          "version": "0.2.1",
+          "components": {
+            "hookOverlay": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-hook-v0.2.1.zip",
+              "sha256": "dd08eb6bc88fc71426babb2bc7aca6a44ae29e596a481d468e0d246ff9461e68",
+              "entryPath": "overlay.json"
+            },
+            "filePatch": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-files-v0.2.1.zip",
+              "sha256": "48bf7e6516ecae4e62755981e8a340c9d5b3963d40e60d5bb230229494ada555",
+              "installMode": "direct-root"
+            }
+          }
+        },
+        {
+          "code": "fr",
+          "name": "Français",
+          "version": "0.2.1",
+          "components": {
+            "hookOverlay": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-fr-hook-v0.2.1.zip",
+              "sha256": "eeeb911ff104677f70261be6714a772df07df5d34f785d72f4cd69e3039c1274",
+              "entryPath": "overlay.json"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "reforged",
+      "name": "Freelancer Reforged",
+      "description": "Reforged translation packages for FLRocket.",
+      "detection": {
+        "requiredFiles": [
+          "EXE/Freelancer.exe"
+        ],
+        "anyFiles": [
+          "EXE/InfoCards.dll",
+          "EXE/equipresources.dll"
+        ]
+      },
+      "launch": {
+        "defaultMode": "standard-exe"
+      },
+      "languages": [
+        {
+          "code": "de",
+          "name": "Deutsch",
+          "version": "0.2.0",
+          "components": {
+            "hookOverlay": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.0/FLRocket-reforged-de-hook-v0.2.0.zip",
+              "sha256": "4b035ccad5ad7236a7de530e15e272ab4cf75b94e563446c80bd1ca4292f8bbb",
+              "entryPath": "overlay.json"
+            }
+          }
+        },
+        {
+          "code": "ru",
+          "name": "Русский",
+          "version": "0.2.1",
+          "components": {
+            "hookOverlay": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-reforged-ru-hook-v0.2.1.zip",
+              "sha256": "6d777c07a8200f1261a485f5482e19dd8e44959d4b871a40008a97c96b80dcc6",
+              "entryPath": "overlay.json"
+            },
+            "filePatch": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-reforged-ru-files-v0.2.1.zip",
+              "sha256": "d7ada79f9152cdcfdfcfa6e313a5cde9d7ff1b7faa06e88209141960662e484d",
+              "installMode": "direct-root"
+            }
+          }
+        },
+        {
+          "code": "cs",
+          "name": "Čeština",
+          "version": "0.2.3",
+          "components": {
+            "hookOverlay": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-hook-v0.2.3.zip",
+              "sha256": "1a9c0b8cd0d806573896a4af8dd9860202d68a9471f6a7f1da5b508e76bfe277",
+              "entryPath": "overlay.json"
+            },
+            "filePatch": {
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.3/FLRocket-reforged-cs-files-v0.2.3-font72.zip",
+              "sha256": "ac2e885d1d94f21e47e537ad6223a6bf22324c69848450e5bb1e78afcee52c58",
+              "installMode": "direct-root"
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
