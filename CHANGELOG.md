@@ -4,6 +4,10 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 
 ## 0.2.3 - 2026-06-14
 
+### Hinzugefügt
+
+- Tschechische Textübersetzung für Freelancer Reforged als Hook-Paket ergänzt.
+
 ### Geändert
 
 - Crossfire wird jetzt über die Root-Dateien `CFWidescreenfix.exe`, `CFUIChanger.exe` und `CFNoHud.exe` erkannt.
