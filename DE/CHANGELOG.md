@@ -9,6 +9,8 @@ https://raw.githubusercontent.com/flathack/FLRocket/main/CHANGELOG.md
 - App-Version auf `v0.3.0` angehoben.
 - Der Startbutton zeigt `Spiel läuft`, solange `Freelancer.exe` läuft. Bei Crossfire zählt zusätzlich der offizielle `GameLauncher.exe`.
 - Der alte Crossfire-Hinweis zum Single-Player-Button wurde von der Startseite entfernt.
+- Neuer Sidebar-Tab `Übersetzung` erklärt den Translator-Ablauf und enthält einen Reset-Button.
+- Reset stellt FLRocket-Datei-Patches aus Backups wieder her, entfernt Hook-Einträge und löscht den von FLRocket erzeugten `EXE2`-Ordner.
 
 ## 0.2.0 - 2026-06-13
 
