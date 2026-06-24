@@ -2,6 +2,14 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.3.0 - 2026-06-24
+
+### Geändert
+
+- App-Version auf `v0.3.0` angehoben.
+- Der Startbutton zeigt `Spiel läuft`, solange `Freelancer.exe` läuft. Bei Crossfire zählt zusätzlich der offizielle `GameLauncher.exe`.
+- Der alte Crossfire-Hinweis zum Single-Player-Button wurde von der Startseite entfernt.
+
 ## 0.2.3 - 2026-06-14
 
 ### Hinzugefügt
