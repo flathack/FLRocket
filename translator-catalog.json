@@ -22,16 +22,16 @@
         {
           "code": "de",
           "name": "Deutsch",
-          "version": "0.2.1",
+          "version": "0.3.0",
           "components": {
             "hookOverlay": {
-              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-hook-v0.2.1.zip",
-              "sha256": "dd08eb6bc88fc71426babb2bc7aca6a44ae29e596a481d468e0d246ff9461e68",
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.3.0/FLRocket-crossfire-de-hook-v0.3.0.zip",
+              "sha256": "cdadd930cf8950a78f557a8232111e763a8dc66798671bc5050211103c19cc40",
               "entryPath": "overlay.json"
             },
             "filePatch": {
-              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.2.1/FLRocket-crossfire-de-files-v0.2.1.zip",
-              "sha256": "48bf7e6516ecae4e62755981e8a340c9d5b3963d40e60d5bb230229494ada555",
+              "archiveUrl": "https://github.com/flathack/FLRocket/releases/download/v0.3.0/FLRocket-crossfire-de-files-v0.3.0.zip",
+              "sha256": "924059241ba7c5d51120aee872fd265288613b5815fc151eb905ee8cfae80762",
               "installMode": "direct-root"
             }
           }
