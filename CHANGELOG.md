@@ -2,6 +2,23 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.3.1 - 2026-07-05
+
+### Hinzugefügt
+
+- Neues Einstellungsfeld „Crossfire Launcher – Startparameter“: Die Kommandozeile für `EXE/GameLauncher.exe` ist jetzt frei editierbar. Standard bleibt `-sp:su` (Single Player); mit `-mp` startet der Launcher direkt im Multiplayer.
+
+### Geändert
+
+- App-Version auf `v0.3.1` angehoben.
+- „Spiel starten“ bereitet eine gewählte Übersetzung jetzt bei Bedarf automatisch vor und startet direkt – der separate Klick auf „Sprache vorbereiten“ auf der Startseite entfällt.
+- Der Spielstart über den offiziellen Crossfire Launcher nutzt nicht mehr fest `-sp:su`, sondern die in den Einstellungen konfigurierten Startparameter.
+
+### Behoben
+
+- „Original“ als Spielsprache ließ sich nicht starten – der Startknopf blieb auf „Sprache vorbereiten“ hängen. FLRocket entfernt bei „Original“ jetzt Hook-Loader und Datei-Patches und startet das Spiel direkt ohne Sprachanpassung.
+- „Original“ brach mit „Failed to restore file patch target … (os error 2)“ ab, wenn eine gesicherte Datei im Cache fehlte. Der Restore überspringt fehlende Backups jetzt und blockiert den Wechsel auf „Original“ nicht mehr.
+
 ## 0.3.0 - 2026-06-24
 
 ### Geändert
