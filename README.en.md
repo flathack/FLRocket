@@ -32,6 +32,7 @@ If a language does not appear in the launcher, no translation package is current
 
 - FLRocket is a community launcher and is not officially connected to the respective mod teams.
 - For Crossfire, text is loaded through the client hook; audio files are backed up when enabled and restored when switching back to `Original`.
+- Crossfire is launched in single-player mode through `EXE/Freelancer.exe` with `-sp:su`.
 - FLRocket is mainly meant to prepare translations comfortably and start the game directly.
 - If something does not work as expected, you can switch back to `Original` at any time.
 

@@ -32,6 +32,7 @@ Wenn eine Sprache im Launcher nicht angezeigt wird, gibt es dafür aktuell noch 
 
 - FLRocket ist ein Community-Launcher und nicht offiziell mit den jeweiligen Mod-Teams verbunden.
 - Für Crossfire werden Texte per Client-Hook geladen; Audiodateien werden beim Aktivieren gesichert und bei `Original` wiederhergestellt.
+- Crossfire wird im Singleplayer-Modus über `EXE/Freelancer.exe` mit `-sp:su` gestartet.
 - FLRocket ist vor allem dafür gedacht, Übersetzungen komfortabel vorzubereiten und das Spiel direkt zu starten.
 - Bei Problemen kannst du jederzeit wieder `Original` auswählen.
 

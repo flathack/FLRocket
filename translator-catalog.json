@@ -16,7 +16,7 @@
       },
       "launch": {
         "defaultMode": "standard-exe",
-        "officialLauncherPath": "EXE/GameLauncher.exe"
+        "officialLauncherPath": "EXE/Freelancer.exe"
       },
       "languages": [
         {

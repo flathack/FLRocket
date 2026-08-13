@@ -2,6 +2,15 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.4.0 - 2026-08-13
+
+### Geändert
+
+- Crossfire zeigt im FLRocket Launcher wieder nur die Startaktion für Singleplayer.
+- Crossfire startet jetzt `EXE/Freelancer.exe` mit `-sp:su`, da diese wieder den bisherigen parametergesteuerten Start übernimmt.
+- Die veraltete Download-Hilfe und Startlogik für `GameLauncher.exe` wurde entfernt.
+- App-Version auf `v0.4.0` angehoben.
+
 ## 0.3.1 - 2026-07-05
 
 ### Hinzugefügt
