@@ -2,6 +2,32 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.5.0 - 2026-08-15
+
+### Hinzugefügt
+
+- Der Launcher-Updater prüft veröffentlichte Portable-Pakete vor der Installation per SHA256 und validiert den ZIP-Inhalt.
+- Release- und Konfigurationsverträge besitzen zusätzliche Regressionstests.
+
+### Geändert
+
+- App-Version auf `v0.5.0` angehoben.
+- Crossfire-Dateipakete verwenden im automatischen Buildmodus immer das wiederherstellbare `direct-root`-Verfahren.
+- Die deutsche Legacy-Assembly-Übersetzung ist wieder im öffentlichen Sprachkatalog eingetragen.
+- Translator-Operationen und Spielstarts werden im Backend serialisiert; während Freelancer beziehungsweise der Crossfire Launcher läuft, bleiben Installation und Übersetzung unverändert.
+- Konfigurationsänderungen werden atomar und konkurrenzsicher gespeichert. Beschädigte Konfigurationen bleiben als Sicherung erhalten.
+
+### Behoben
+
+- Der EXE2-Watcher bleibt bei langsamem Spielstart und vorübergehend gesperrter `dacom.ini` aktiv.
+- Reset meldet fehlende Datei-Backups als unvollständig und behält die verbleibenden Sicherungen für eine Reparatur.
+- Das Abschalten des Datei-Patches entfernt bereits installierte Patch-Dateien aus der Installation.
+- Manuelle Mod-Auswahl, ungültige Installationspfade, deaktivierte Hook-Komponenten und schnelle Mehrfachklicks führen nicht mehr zu falschen Launcher-Zuständen oder Doppelstarts.
+- Fehler in Legacy- und Self-Updates werden sichtbar gemeldet; Translator-Releases können ein neueres Launcher-Release nicht mehr verdecken.
+- Der Self-Updater wendet EXE und WebView2-Loader mit automatischem Rollback an.
+- Die C#-Hook-Integration verlangt einen gültigen SHA256 und hinterlässt bei fehlgeschlagener Installation keine DLL-Reste.
+- Dokument-Sprache, Live-Status, Fortschritt und Fehlerfokus wurden für Screenreader korrigiert.
+
 ## 0.4.0 - 2026-08-13
 
 ### Geändert
