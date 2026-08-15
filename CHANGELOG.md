@@ -20,6 +20,7 @@ Alle relevanten Projektänderungen werden hier dokumentiert.
 
 ### Behoben
 
+- Crossfire ermittelt bei Übersetzungsvorbereitung und Spielstart nun denselben offiziellen Startmodus; dadurch wird der Singleplayer-Hook in `EXE/daSP.ini` registriert, während `EXE/daMP.ini` unverändert bleibt.
 - Crossfire registriert den Singleplayer-Hook vor dem Start zusätzlich in `EXE/daSP.ini`; `daMP.ini` und damit die Multiplayer-Konfiguration bleiben unverändert.
 - Der EXE2-Watcher dient nur noch älteren Crossfire-Installationen als Fallback, endet nach dem ersten Erfolg und meldet Fehler an den Launcher zurück.
 - Wiederholte Hook-Vorbereitung schreibt eine bereits korrekte `dacom.ini` nicht erneut und fügt keine weiteren Leerzeilen hinzu.
