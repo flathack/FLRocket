@@ -12,9 +12,9 @@ Crossfire Launcher.
 ## Kurzfassung
 
 1. Installiere Crossfire zuerst ganz normal und teste, ob es auf Englisch läuft.
-2. Lade aus den [FLRocket Releases](https://github.com/flathack/FLRocket/releases/latest) die portable ZIP herunter, zum Beispiel `FLRocket-v0.4.0-portable.zip`.
+2. Lade aus den [FLRocket Releases](https://github.com/flathack/FLRocket/releases/latest) die portable ZIP herunter, zum Beispiel `FLRocket-v0.5.0-portable.zip`.
 3. Entpacke die ZIP in deinen Crossfire-Hauptordner.
-4. Starte `FLRocket.exe`.
+4. Starte `FLRocket.exe` und bestätige die Windows-Abfrage für Administratorrechte.
 5. Wähle im Launcher `Deutsch`.
 6. Klicke auf `SINGLEPLAYER`.
 7. Warte beim ersten Start, bis FLRocket die Übersetzung heruntergeladen und vorbereitet hat.
@@ -42,10 +42,10 @@ nicht reparieren.
 
 [FLRocket Releases](https://github.com/flathack/FLRocket/releases/latest)
 
-Lade dort die portable ZIP herunter. Bei Version 0.4.0 heißt sie:
+Lade dort die portable ZIP herunter. Bei Version 0.5.0 heißt sie:
 
 ```text
-FLRocket-v0.4.0-portable.zip
+FLRocket-v0.5.0-portable.zip
 ```
 
 Du findest die Datei auf GitHub unten im Bereich `Assets`. Lade nicht
@@ -86,6 +86,10 @@ Starte:
 ```text
 FLRocket.exe
 ```
+
+Windows fragt beim Start nach Administratorrechten. Das ist erforderlich,
+damit FLRocket den Crossfire Launcher und Freelancer mit denselben Rechten
+starten kann.
 
 Wenn du möchtest, kannst du dir danach eine Desktop-Verknüpfung auf
 `FLRocket.exe` anlegen.

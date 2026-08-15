@@ -9,12 +9,15 @@ FLRocket helps you play Freelancer mods with available translations. You do not 
 1. Download the latest ZIP from the [FLRocket Releases](https://github.com/flathack/FLRocket/releases/latest).
 2. Extract the ZIP directly into the main folder of your Freelancer mod installation.
 3. Important: `FLRocket.exe` and `WebView2Loader.dll` must be next to each other.
-4. Start `FLRocket.exe`.
+4. Start `FLRocket.exe` and approve the Windows administrator prompt.
 5. Choose the language you want in the launcher.
 6. Click `Prepare translation`.
 7. Start the game through FLRocket.
 
 The correct game folder is the folder that contains the `EXE` folder.
+
+FLRocket requests administrator privileges when it starts so that the Crossfire
+Launcher and Freelancer inherit the same privileges.
 
 ## Currently Available Translations
 
