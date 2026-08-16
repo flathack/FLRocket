@@ -15,7 +15,7 @@
         "anyFiles": []
       },
       "launch": {
-        "defaultMode": "standard-exe",
+        "defaultMode": "official-launcher",
         "officialLauncherPath": "EXE/Freelancer.exe"
       },
       "languages": [

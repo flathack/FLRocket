@@ -2,6 +2,37 @@
 
 Alle relevanten Projektänderungen werden hier dokumentiert.
 
+## 0.5.0 - 2026-08-15
+
+### Hinzugefügt
+
+- Der Launcher-Updater prüft veröffentlichte Portable-Pakete vor der Installation per SHA256 und validiert den ZIP-Inhalt.
+- Release- und Konfigurationsverträge besitzen zusätzliche Regressionstests.
+
+### Geändert
+
+- App-Version auf `v0.5.0` angehoben.
+- FLRocket fordert unter Windows beim Start Administratorrechte an, damit gestartete Spielprozesse dieselben Rechte erben.
+- Crossfire-Dateipakete verwenden im automatischen Buildmodus immer das wiederherstellbare `direct-root`-Verfahren.
+- Die deutsche Legacy-Assembly-Übersetzung ist wieder im öffentlichen Sprachkatalog eingetragen.
+- Translator-Operationen und Spielstarts werden im Backend serialisiert; während Freelancer beziehungsweise der Crossfire Launcher läuft, bleiben Installation und Übersetzung unverändert.
+- Konfigurationsänderungen werden atomar und konkurrenzsicher gespeichert. Beschädigte Konfigurationen bleiben als Sicherung erhalten.
+
+### Behoben
+
+- Crossfire ermittelt bei Übersetzungsvorbereitung und Spielstart nun denselben offiziellen Startmodus; dadurch wird der Singleplayer-Hook in `EXE/daSP.ini` registriert, während `EXE/daMP.ini` unverändert bleibt.
+- Crossfire registriert den Singleplayer-Hook vor dem Start zusätzlich in `EXE/daSP.ini`; `daMP.ini` und damit die Multiplayer-Konfiguration bleiben unverändert.
+- Der EXE2-Watcher dient nur noch älteren Crossfire-Installationen als Fallback, endet nach dem ersten Erfolg und meldet Fehler an den Launcher zurück.
+- Wiederholte Hook-Vorbereitung schreibt eine bereits korrekte `dacom.ini` nicht erneut und fügt keine weiteren Leerzeilen hinzu.
+- Reset meldet fehlende Datei-Backups als unvollständig und behält die verbleibenden Sicherungen für eine Reparatur.
+- Hook- und Datei-Patch-Schalter halten Konfiguration und Installation auch bei Fehlern konsistent; das Abschalten des Hooks verändert keine Datei-Patches.
+- Reset überschreibt einen fehlgeschlagenen Translator-Refresh nicht mehr mit einer Erfolgsmeldung.
+- Manuelle Mod-Auswahl, ungültige Installationspfade, deaktivierte Hook-Komponenten und schnelle Mehrfachklicks führen nicht mehr zu falschen Launcher-Zuständen oder Doppelstarts.
+- Fehler in Legacy- und Self-Updates werden sichtbar gemeldet; Translator-Releases können ein neueres Launcher-Release nicht mehr verdecken.
+- Der Self-Updater wendet EXE und WebView2-Loader mit automatischem Rollback an.
+- Die C#-Hook-Integration verlangt einen gültigen SHA256 und hinterlässt bei fehlgeschlagener Installation keine DLL-Reste.
+- Dokument-Sprache, Live-Status, Fortschritt und Fehlerfokus wurden für Screenreader korrigiert.
+
 ## 0.4.0 - 2026-08-13
 
 ### Geändert
