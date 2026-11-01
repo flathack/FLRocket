@@ -4,6 +4,9 @@
 
 FLRocket startet Freelancer-Mods mit verfügbaren Übersetzungen. Für Freelancer Crossfire bereitet es den Singleplayer vor und startet den Client direkt. FLRocket ist ein Community-Projekt und kein offizieller Crossfire Launcher.
 
+<img width="1080" height="739" alt="grafik" src="https://github.com/user-attachments/assets/385624b3-8240-4ac1-9297-ae72a5ca7af7" />
+
+
 ## Installation
 
 1. Installiere Freelancer Crossfire und prüfe, ob es regulär startet.
