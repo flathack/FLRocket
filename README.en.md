@@ -2,42 +2,37 @@
 
 [Deutsche README](README.md)
 
-FLRocket helps you play Freelancer mods with available translations. You do not need to patch files by hand: download, extract, choose a language, start the game.
+FLRocket starts Freelancer mods with available translations. For Freelancer Crossfire it prepares singleplayer and starts the client directly. FLRocket is a community project and is not the official Crossfire Launcher.
 
-## Quick Start
+## Installation
 
-1. Download the latest ZIP from the [FLRocket Releases](https://github.com/flathack/FLRocket/releases/latest).
-2. Extract the ZIP directly into the main folder of your Freelancer mod installation.
-3. Important: `FLRocket.exe` and `WebView2Loader.dll` must be next to each other.
-4. Start `FLRocket.exe` and approve the Windows administrator prompt.
-5. Choose the language you want in the launcher.
-6. Click `Prepare translation`.
-7. Start the game through FLRocket.
+1. Install Freelancer Crossfire and check that it starts normally.
+2. Download and run the **installer** from the [latest release](https://github.com/flathack/FLRocket/releases/latest).
+3. The installer checks `C:/Freelancer Crossfire`. If it cannot find an installation there, select the Crossfire root folder, which contains the `EXE` and `DATA` folders.
+4. Start FLRocket, choose a language and select **Start Singleplayer**. FLRocket downloads the necessary translation packages on first launch.
 
-The correct game folder is the folder that contains the `EXE` folder.
+Alternatively, extract the portable ZIP from the release into the root folder of your mod and start `FLRocket.exe`. The ZIP also contains `WebView2Loader.dll` for compatibility. If FLRocket is outside the game folder, select the folder in Settings.
 
-FLRocket requests administrator privileges when it starts so that the Crossfire
-Launcher and Freelancer inherit the same privileges.
+FLRocket requires administrator privileges. The launcher initially follows the Windows UI language; English and German can be selected in Settings. The in-game language is selected separately on the home screen.
 
-## Currently Available Translations
+## Singleplayer, multiplayer and files
 
-| Mod | Language |
+FLRocket is intended for singleplayer translations. For multiplayer, the button in the lower right opens the official Crossfire Launcher and closes FLRocket. Continue to use the official launcher for Crossfire updates and repairs.
+
+FLRocket loads text translations through a client hook. When a language needs additional files, FLRocket backs up the affected originals and restores them after the game session. An interrupted session can be restored from Settings. Select `Original` to start without a translation.
+
+## Available translations
+
+| Mod | Languages |
 | --- | --- |
 | Freelancer Crossfire | German, French |
 | Freelancer Reforged | German, Russian, Czech |
-| Detected mods | Original |
 
-`Original` means: do not use a translation and start the game in its normal language.
+Availability depends on the translation catalog and published packages. FLRocket downloads the packages automatically on first launch.
 
-If a language does not appear in the launcher, no translation package is currently available for it.
+## Updates
 
-## Notes
-
-- FLRocket is a community launcher and is not officially connected to the respective mod teams.
-- For Crossfire, text is loaded through the client hook; audio files are backed up when enabled and restored when switching back to `Original`.
-- Crossfire is launched in single-player mode through `EXE/Freelancer.exe` with `-sp:su`.
-- FLRocket is mainly meant to prepare translations comfortably and start the game directly.
-- If something does not work as expected, you can switch back to `Original` at any time.
+FLRocket can check for launcher updates. When updating from v0.5.0, the new version is installed after exiting; start FLRocket again afterwards. The portable ZIP and checksum files are also available on the release page.
 
 ## Credits
 
